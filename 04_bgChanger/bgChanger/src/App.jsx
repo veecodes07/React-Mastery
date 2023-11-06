@@ -3,6 +3,9 @@ import { useState } from "react"
 function App() {
   const [color, setColor] = useState("olive")
 
+  //you have to set a state for anything to reflect in UI in react . 
+  //another method of bgchanger is to change state every time
+
   return (
     <div className="w-full h-screen duration-200"
     style={{backgroundColor: color}}>
